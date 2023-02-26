@@ -1,0 +1,97 @@
+body{
+    width: 90%;
+    height: 350px;
+    background-color: hsl(185, 75%, 39%);
+    background-image:url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+    background-size: 450px, 450px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 50%, 50% 50% ;    
+       
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    
+    
+   
+}
+/*left -50px top -100px, right -50px bottom -400px;*/ 
+.container{
+    width: 250px;
+    height: 280px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin-left: 475px;
+    margin-top: 180px;
+    
+}
+
+
+.a1 img{
+    width: 250px;
+    height: 100px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.a2 img{
+    border-radius: 50px;
+    
+    border: 5px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+}
+
+
+.text{
+    font-size: 14px;
+    text-align: center;
+    line-height: 8px;
+}
+#victor{
+    line-height: 5px;
+}
+#london{
+   
+    font-size: 10px;
+}
+
+.container1{
+    position: relative;
+    
+
+}
+#p1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 13px;
+    line-height: 5px;
+    position: absolute;
+    left: 35px;
+}
+#p2{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 13px;
+    line-height: 5px;
+    position: absolute;
+    left: 110px;
+}
+#p3{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 13px;
+    line-height: 5px;
+    position: absolute;
+    right: 30px;
+}
+#followers{
+    font-size: 10px;
+    margin-left: -10px;
+}
+#likes{
+    font-size: 10px;
+    margin-left: 4px;
+}
+#photos{
+    font-size: 10px;
+    margin-left: -3px;
+}
